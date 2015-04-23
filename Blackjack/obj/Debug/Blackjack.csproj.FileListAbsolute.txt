@@ -1,0 +1,8 @@
+c:\users\avarice\documents\visual studio 2013\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.Properties.Resources.resources
+c:\users\avarice\documents\visual studio 2013\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.csproj.GenerateResource.Cache
+c:\users\avarice\documents\visual studio 2013\Projects\Blackjack\Blackjack\bin\Debug\Blackjack.exe.config
+c:\users\avarice\documents\visual studio 2013\Projects\Blackjack\Blackjack\bin\Debug\Blackjack.exe
+c:\users\avarice\documents\visual studio 2013\Projects\Blackjack\Blackjack\bin\Debug\Blackjack.pdb
+c:\users\avarice\documents\visual studio 2013\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.exe
+c:\users\avarice\documents\visual studio 2013\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.pdb
+C:\Users\Avarice\Documents\Visual Studio 2013\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.csprojResolveAssemblyReference.cache
