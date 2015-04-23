@@ -8,10 +8,8 @@ namespace Blackjack.DeckOfCards
 {
     interface ICard
     {
-        string Suit();
-        int Value();
-        string Face();
-        string ToString();
-        bool Equals(object other);
+        string Suit { get;  set; }
+        int Value { get;  set; }
+        string Face { get;  set; }
     }
 }

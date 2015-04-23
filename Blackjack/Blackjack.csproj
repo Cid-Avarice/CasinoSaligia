@@ -54,11 +54,9 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Payout\DetermineHandValue.cs" />
-    <Compile Include="Payout\DetermineWinnerAndPayout.cs" />
-    <Compile Include="Player\Dealer.cs" />
-    <Compile Include="Player\HumanPlayer.cs" />
-    <Compile Include="Player\Interface\IPlayer.cs" />
+    <Compile Include="Determine\DetermineLogic.cs" />
+    <Compile Include="Player\BlackjackPlayer.cs" />
+    <Compile Include="Player\Interface\IBlackjackPlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">

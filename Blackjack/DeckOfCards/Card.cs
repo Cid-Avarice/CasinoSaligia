@@ -19,24 +19,27 @@ namespace Blackjack.DeckOfCards
         /// <param name="face">Face of the card.</param>
         public Card(string suit, string face)
         {
-            _face = face;
-            _suit = suit;
-            _value = ValueOfCard.ReturnValue(face);
+            this.Face = face;
+            this.Suit = suit;
+            this.Value = ValueOfCard.ReturnValue(face);
         }
 
-        public string Suit()
+        public string Suit
         {
-            return _suit;
+            get { return _suit; }
+            set { _suit = value; }
         }
 
-        public int Value()
+        public int Value
         {
-            return _value;
+            get { return _value; }
+            set { _value = value; }
         }
 
-        public string Face()
+        public string Face
         {
-            return _face;
+            get { return _face; }
+            set { _face = value; }
         }
 
         public override string ToString()
@@ -47,7 +50,7 @@ namespace Blackjack.DeckOfCards
         public override bool Equals(object other)
         {
             var otherCard = (Card)other;
-            return otherCard.Suit().Equals(_suit) && otherCard.Face().Equals(_face);
+            return otherCard.Suit.Equals(_suit) && otherCard.Face.Equals(_face);
         }
     }
 }
