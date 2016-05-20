@@ -8,47 +8,41 @@ namespace Blackjack.DeckOfCards
 {
     class Deck
     {
-        private List<ICard> deck = new List<ICard>();
-     
-        /// <summary>
-        /// Constructor
-        /// </summary>
-        public Deck()
-        {
-            CreateDeck();
-        }
+        public List<ICard> deck = new List<ICard>();
 
         /// <summary>
         /// Initializes deck of 52 cards
         /// </summary>
-        private void CreateDeck()
+        public void CreateDeck()
         {
+            EmptyDeck();
+
             for(int i = 0; i < 4; i++)
             {
                 string suit;
                 switch(i)
                 {
-                    case 0: suit = "spades"; break;
-                    case 1: suit = "hearts"; break;
-                    case 2: suit = "clubs"; break;
-                    case 3: suit = "diamonds"; break;
+                    case 0: suit = "Spades"; break;
+                    case 1: suit = "Hearts"; break;
+                    case 2: suit = "Clubs"; break;
+                    case 3: suit = "Diamonds"; break;
                     default:
                         throw new Exception("Incorrect suit created for a card!");
                 }
 
-                deck.Add(new Card(suit, "ace"));
-                deck.Add(new Card(suit, "two"));
-                deck.Add(new Card(suit, "three"));
-                deck.Add(new Card(suit, "four"));
-                deck.Add(new Card(suit, "five"));
-                deck.Add(new Card(suit, "six"));
-                deck.Add(new Card(suit, "seven"));
-                deck.Add(new Card(suit, "eight"));
-                deck.Add(new Card(suit, "nine"));
-                deck.Add(new Card(suit, "ten"));
-                deck.Add(new Card(suit, "jack"));
-                deck.Add(new Card(suit, "queen"));
-                deck.Add(new Card(suit, "king"));
+                deck.Add(new Card(suit, "Ace"));
+                deck.Add(new Card(suit, "Two"));
+                deck.Add(new Card(suit, "Three"));
+                deck.Add(new Card(suit, "Four"));
+                deck.Add(new Card(suit, "Five"));
+                deck.Add(new Card(suit, "Six"));
+                deck.Add(new Card(suit, "Seven"));
+                deck.Add(new Card(suit, "Eight"));
+                deck.Add(new Card(suit, "Nine"));
+                deck.Add(new Card(suit, "Ten"));
+                deck.Add(new Card(suit, "Jack"));
+                deck.Add(new Card(suit, "Queen"));
+                deck.Add(new Card(suit, "King"));
             }
         }
 
@@ -59,7 +53,7 @@ namespace Blackjack.DeckOfCards
         public ICard DrawCard()
         {
             if (deck.Count == 0)
-                throw new Exception("Drawing a card from an empty deck!");
+                Reshuffle();
 
             Random rnd = new Random();
 
@@ -78,6 +72,14 @@ namespace Blackjack.DeckOfCards
         public void Reshuffle()
         {
             CreateDeck();
+        }
+
+        /// <summary>
+        /// Empties the deck
+        /// </summary>
+        public void EmptyDeck()
+        {
+            deck = new List<ICard>();
         }
     }
 }

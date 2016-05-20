@@ -10,7 +10,7 @@ namespace Blackjack.Payout
 {
     class DetermineLogic
     {
-        public static int DetermineHandValue(List<ICard> hand)
+        public int DetermineHandValue(List<ICard> hand)
         {
             var value = 0;
             bool containsAce = false;
@@ -31,7 +31,7 @@ namespace Blackjack.Payout
             return value;
         }
 
-        public static IBlackjackPlayer DetermineWinner(IBlackjackPlayer player1, IBlackjackPlayer player2)
+        public IBlackjackPlayer DetermineWinner(IBlackjackPlayer player1, IBlackjackPlayer player2)
         {
             if (player1.HandValue > player2.HandValue)
                 return player1;
@@ -40,7 +40,7 @@ namespace Blackjack.Payout
             return null;
         }
 
-        public static decimal DeterminePayout(IBlackjackPlayer player, bool isBlackJack)
+        public decimal DeterminePayout(IBlackjackPlayer player, bool isBlackJack)
         {
             if (isBlackJack)
                 return player.Bet * 1.5M;

@@ -22,7 +22,7 @@ namespace Blackjack.Player
         public BlackjackPlayer(ICard card1, ICard card2, decimal currentAmount) 
         {
             _hand = new List<ICard> { card1, card2 };
-            HandValue = DetermineLogic.DetermineHandValue(_hand);
+            //HandValue = DetermineLogic.DetermineHandValue(_hand);
             _currentAmount = currentAmount;
         }
 
@@ -43,7 +43,7 @@ namespace Blackjack.Player
         public void ReceiveCard(ICard card)
         {
             _hand.Add(card);
-            HandValue = DetermineLogic.DetermineHandValue(_hand);
+            //HandValue = DetermineLogic.DetermineHandValue(_hand);
         }
 
         /// <summary>

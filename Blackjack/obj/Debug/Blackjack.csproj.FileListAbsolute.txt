@@ -6,3 +6,12 @@ c:\users\avarice\documents\visual studio 2013\Projects\Blackjack\Blackjack\bin\D
 c:\users\avarice\documents\visual studio 2013\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.exe
 c:\users\avarice\documents\visual studio 2013\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.pdb
 C:\Users\Avarice\Documents\Visual Studio 2013\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.csprojResolveAssemblyReference.cache
+C:\Projects\CasinoSaligia\Blackjack\bin\Debug\Blackjack.exe.config
+C:\Projects\CasinoSaligia\Blackjack\obj\Debug\Blackjack.exe
+C:\Projects\CasinoSaligia\Blackjack\obj\Debug\Blackjack.pdb
+C:\Projects\CasinoSaligia\Blackjack\bin\Debug\Blackjack.exe
+C:\Projects\CasinoSaligia\Blackjack\bin\Debug\Blackjack.pdb
+C:\Projects\CasinoSaligia\Blackjack\obj\Debug\Blackjack.csprojResolveAssemblyReference.cache
+C:\Projects\CasinoSaligia\Blackjack\obj\Debug\Blackjack.Properties.Resources.resources
+C:\Projects\CasinoSaligia\Blackjack\obj\Debug\Blackjack.csproj.GenerateResource.Cache
+C:\Projects\CasinoSaligia\Blackjack\obj\Debug\Blackjack.Form1.resources
